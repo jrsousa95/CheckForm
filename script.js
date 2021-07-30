@@ -15,7 +15,7 @@ function validar(){
   }
   if (senha == "" || senha.length <=7) {
     alert("Por favor, defina uma senha com mínimo 8 caracteres!");
-    formUser.email.focus();
+    formUser.senha.focus();
     return false;
   }
 
